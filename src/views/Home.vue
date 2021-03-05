@@ -4,6 +4,7 @@
     <main data-spy="scroll" data-target="#navbar-example2" data-offset="0">
       <Hero/>
       <Bio/>
+      <TestimonialSlider/>
       <Experience/>
       <Work/>
       <Contact/>
@@ -18,6 +19,7 @@
 import SideBar from "@/components/SideBar.vue";
 import Bio from "@/components/Bio.vue";
 import Hero from "@/components/Hero.vue";
+import TestimonialSlider from "@/components/TestimonialSlider.vue";
 import Experience from "@/components/Experience.vue";
 import Work from "@/components/Work.vue";
 import Contact from "@/components/Contact.vue";
@@ -31,6 +33,7 @@ export default {
     Bio,
     Hero,
     Experience,
+    TestimonialSlider,
     Work,
     Contact,
     Footer

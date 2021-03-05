@@ -53,7 +53,7 @@
             :key="index"
             v-if="work.state == 'isWeb' ? isWeb : isNovel"
           >
-            {{ work.state }}
+            <!-- {{ work.state }} -->
             <!-- <router-link :to="{ name: 'Work', params: { id: work.name } }"> -->
             <div class="portfolio-box-01">
               <div class="portfolio-img">

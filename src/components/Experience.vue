@@ -19,7 +19,7 @@
                       <div class="col-md-9">
                             <div class="rb-right">
                                 <h6>About Company</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                                <p>{{userExp.about}}</p>
                             </div>
                       </div>
                   </div>
@@ -40,28 +40,32 @@ export default {
                 company: 'Kodehauz',
                 nature: 'On-site',
                 duration: 'Jan 2019 - Present',
-                time: 'Full Time'
+                time: 'Full Time',
+                about: "It is located in Eket Akwa Ibom state. It's vision is to create a flourishing ecosystem powered by"
             },
                 {
                 role: 'Front-end Developer',
                 company: 'Next Inn',
                 nature: 'Remote',
                 duration: 'Jan 2019 - Present',
-                time: 'Full Time'
+                time: 'Full Time',
+                about: "A company started up to fill the gap of unemployment while sharpwning up the developer's skill. The tech stack was HTMl, Css, JavaScript, Handlebars, Node JS, Vue, Nuxt"
             },
                 {
                 role: 'Front-end Developer',
                 company: 'HNG',
                 nature: 'Remote',
                 duration: 'Jan 2019 - Present',
-                time: 'Part Time'
+                time: 'Part Time',
+                about: "An internship where the best of developers are selelcted after a battlw royal for a couple od weeks. It comprises of ten stages of which developers are evicted as the day goes. The watch word goes sleep is for the weak. you have to always be a scout cos, tasks can get dropped anytime."
             },
                 {
                 role: 'Writer',
                 company: 'Silver Lining',
                 nature: 'On-site',
                 duration: 'Jan 2019 - Present',
-                time: 'Full Time'
+                time: 'Full Time',
+                about: "A firm for novel writing. I wrote my novels in this firm. It's not the regular firm with a building but a firm in my heart."
             },
             ]
         }

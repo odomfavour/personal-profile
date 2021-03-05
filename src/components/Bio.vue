@@ -9,11 +9,11 @@
                                     <img src="../assets/img/meee.jpeg" title="" alt="" class="img-fluid">
                                 </div>
                                 <div class="nav social-icons justify-content-center">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="https://github.com/odomfavour" target="_blank"><i class="fa fa-github"></i></a>
+                                    <a href="https://twitter.com/godsfavourodom" target="_blank"><i class="fa fa-twitter"></i></a>
                                     <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                    <a href="https://www.linkedin.com/in/ogochukwu-odom-a94870199/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://web.facebook.com/ogochukwu.odom.5/" target="_blank"><i class="fa fa-facebook"></i></a>
                                 </div>
                             </div>
                             <div class="info text-center pt-3">
@@ -28,8 +28,8 @@
                                 <h3>About Me</h3>
                             </div>
                             <div class="about-text">
-                                <p>I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
-                                <p>I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.</p>
+                                <p>I'm a Front-end Developer with over 2 years of experience. I'm from Imo state in Nigeria. I code and create web applications for amazing people around the world. I like to work with new people and like its said, 'New people, new Experiences'. That's my nudge. I aspire to be a full stack developer but for now, my focus is frontend.  I work with <strong>Vue, Nuxt, Graphql, Node JS, JavaScript, Bootstrap, Tailwind.</strong> Give a call if you need something done.</p>
+                                <p>Asides web development, I write too. It's a hobby for me. My focus is Novel writing but when in tune, I can write whatever needs to be written. I have a couple of novel's. I can also teach the sciences and also give guidance for people wanting to start their journey in tech.</p>
                             </div>
                             <div class="info-list">
                                 <div class="row">
@@ -69,7 +69,7 @@
                                             </li>
                                             <li>
                                                 <label>Freelance: </label>
-                                                <span>Available</span>
+                                                <span>--</span>
                                             </li>
                                         </ul>
                                     </div>
@@ -86,29 +86,29 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 m-15px-tb">
-                        <div class="feature-box">
+                        <div class="feature-box h-100">
                             <i class="fa fa-desktop fa-2x mb-3"></i>
                             <div class="feature-content">
                                 <h5>Web Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Need a websit for your company to boost your reputation while creating awareness? How about developing that web project you have in mind?</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 m-15px-tb">
-                        <div class="feature-box">
+                        <div class="feature-box h-100">
                             <i class="fa fa-pencil fa-2x mb-3"></i>
                             <div class="feature-content">
                                 <h5>Writing</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Word... who can really grasp what they can do? Get your emotions awakened and drown your soul with suspense as you read through each book.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 m-15px-tb">
-                        <div class="feature-box">
+                    <div class="col-lg-4 m-15px-tb ">
+                        <div class="feature-box h-100">
                             <i class="fa fa-file fa-2x mb-3"></i>
                             <div class="feature-content">
                                 <h5>Tutoring</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p>Science is fun. you can also get to see the fun in it too. </p>
                             </div>
                         </div>
                     </div>

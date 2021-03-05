@@ -11,24 +11,19 @@
                 <img src="../assets/img/meee.jpeg" alt="client-image" class="img-fluid">
             </div>
             <div class="name text-center">
-                <h4>John Doe</h4>
+                <h4>{{slide.name}}</h4>
             </div>
     </div>
             
           </div>
             </div>
             <div class="col-md-7">
-                <div class="testimony">
-              <p> I know he will keep improving my website and advising me in the best ways forward for years to come, with SEO and new features.</p>
+                <div class="testimony mt-md-5">
+              <p> {{slide.testimony}}.</p>
           </div>
             </div>
         </div>
         </div>
-        
-      <!-- <div class="d-flex client-talk p-4">
-          
-          
-      </div> -->
       </slide>
   </carousel-3d>
   </div>
@@ -38,7 +33,15 @@
 export default {
     data() {
         return {
-            slides: 7
+            slides: [
+                {name: 'Ayo Ola', testimony: "Ian has done a fantastic job overall. Not only the site is to design, the code is very clean and slick." },
+                {name: 'Chisom', testimony: "He has a patient spirit and is always willing to help. He's infact an Agba dev"},
+                {name: 'Chilo', testimony: "Ogo writes well. His stories keep you glued and expectant for evry scene. He is also a goo developer"},
+                {name: 'Nneoma Obasi', testimony: "He has a thing for novels and he just keeps you on your toes with his writing"},
+                {name: 'Kelechi', testimony: "He takes web development to another level. I was shocked to see what he did with just vanilla html and css"},
+                {name: 'Mrs. Treasure', testimony: "Mr. Ogochukwu teaches well, students love the way he teaches and are eager to learn too."},
+                {name: 'Promise Orung', testimony: "If one is to take up a challenge, Ogochulwu is one. He has grown over time and so quickly in web development"}
+                ]
         }
     }
 }

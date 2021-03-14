@@ -19,7 +19,7 @@
           <div class="type-box mt-md-3 mt-5">
             <h6>Hello, My name is</h6>
             <h1 class="dev-name">Ogochukwu Odom</h1>
-            <p class="lead">Front-end Developer | Writer | Tutor</p>
+            <h4 class="lead">Front-end Developer | Writer | Tutor</h4>
             <p class="desc">
               I develop services for customers of all sizes, specializing in
               creating stylish, modern websites, web services and online stores.
@@ -74,14 +74,14 @@ export default {
   min-height: 100vh;
 }
 
-.type-box h6 {
+.type-box h6{
   font-size: 20px;
   font-weight: 500;
   margin: 0 0 20px;
 }
 
 .dev-name {
-  font-size: 73px;
+  font-size: 70px;
   font-weight: 700;
   line-height: 1;
   margin: 0 0 20px;
@@ -90,6 +90,8 @@ export default {
 .lead {
   text-transform: uppercase;
 }
+
+
 
 #burger {
   display: none;

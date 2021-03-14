@@ -14,12 +14,17 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 @font-face {
     font-family: rubik;
     src: url(/fonts/Rubik/static/Rubik-Regular.ttf) !important;
 }
 body {
     font-family: rubik !important;
+}
+
+body p {
+  /* font-size: 18px; */
 }
 
 @media(max-width: 900px) {

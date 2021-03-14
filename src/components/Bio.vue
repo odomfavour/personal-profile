@@ -85,7 +85,7 @@
                     <h3>What I do?</h3>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 m-15px-tb">
+                    <div class="col-lg-4 mb-3">
                         <div class="feature-box h-100">
                             <i class="fa fa-desktop fa-2x mb-3"></i>
                             <div class="feature-content">
@@ -94,16 +94,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 m-15px-tb">
+                    <div class="col-lg-4 mb-3">
                         <div class="feature-box h-100">
                             <i class="fa fa-pencil fa-2x mb-3"></i>
                             <div class="feature-content">
                                 <h5>Writing</h5>
-                                <p>Word... who can really grasp what they can do? Get your emotions awakened and drown your soul with suspense as you read through each book.</p>
+                                <p>Words... who can really grasp what they can do? Get your emotions awakened and drown your soul with suspense as you read through each book.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 m-15px-tb ">
+                    <div class="col-lg-4 mb-3">
                         <div class="feature-box h-100">
                             <i class="fa fa-file fa-2x mb-3"></i>
                             <div class="feature-content">
@@ -174,6 +174,10 @@ export default {
     #about {
         padding: 100px 0;
     }
+
+    /* #about p, #about li {
+        font-size: 18px;
+    } */
 
     #about .about-me .img-in {
         border-radius: 50%;

@@ -122,7 +122,7 @@ export default {
           name: "Unsplash api search",
           link: "hshds",
           img: "about-me.jpg",
-          brief: "a web app for football fans",
+          brief: "Image search",
         },
         {
           state: "isNovel",
@@ -130,6 +130,13 @@ export default {
           link: "hshds",
           img: "mee.jpg",
           brief: "cult in school",
+        },
+        {
+          state: "isWeb",
+          name: "Country Search",
+          link: "https://polydactyl-curse-fear.glitch.me/",
+          img: "mee.jpg",
+          brief: "Searching Countries",
         },
         {
           state: "isNovel",
@@ -141,9 +148,16 @@ export default {
         {
           state: "isWeb",
           name: "Country api",
-          link: "hshds",
+          link: "https://chartreuse-alabaster-thyme.glitch.me/",
           img: "about-me.jpg",
           brief: "country based",
+        },
+        {
+          state: "isWeb",
+          name: "huntr",
+          link: "https://brave-wescoff-f58b5e.netlify.app",
+          img: "about-me.jpg",
+          brief: "list jobs (API) & auth (firebase)",
         },
       ],
     };
@@ -163,8 +177,13 @@ export default {
     showWork(page) {
       localStorage.setItem("work", JSON.stringify(page));
       console.log(page.name);
-      const workId = page.name;
+      if(page.state == 'isNovel') {
+         const workId = page.name;
       this.$router.push({ name: "Work", params: { id: workId } });
+      }else {
+        window.open(page.link);
+      }
+     
     },
   },
 };

@@ -39,7 +39,7 @@ export default {
                 role: 'Front-end Developer',
                 company: 'Kodehauz',
                 nature: 'On-site',
-                duration: 'Jan 2019 - Present',
+                duration: 'Aug 2020 - Present',
                 time: 'Full Time',
                 about: "It is located in Eket Akwa Ibom state. It's vision is to create a flourishing ecosystem powered by"
             },
@@ -47,17 +47,25 @@ export default {
                 role: 'Front-end Developer',
                 company: 'Next Inn',
                 nature: 'Remote',
-                duration: 'Jan 2019 - Present',
+                duration: 'Jan 2020 - Present',
                 time: 'Full Time',
-                about: "A company started up to fill the gap of unemployment while sharpwning up the developer's skill. The tech stack was HTMl, Css, JavaScript, Handlebars, Node JS, Vue, Nuxt"
+                about: "A company started up to fill the gap of unemployment while sharpening up the developer's skill.I worked as a frontend developer  The tech stack was HTMl, Css, JavaScript, Handlebars, Node JS, Vue, Nuxt"
             },
                 {
-                role: 'Front-end Developer',
+                role: 'Front-end Intern',
                 company: 'HNG',
                 nature: 'Remote',
-                duration: 'Jan 2019 - Present',
+                duration: 'May 2019 - Jul. 2019',
                 time: 'Part Time',
-                about: "An internship where the best of developers are selelcted after a battlw royal for a couple od weeks. It comprises of ten stages of which developers are evicted as the day goes. The watch word goes sleep is for the weak. you have to always be a scout cos, tasks can get dropped anytime."
+                about: "An internship where the best of developers are selelcted after a battle royal for a couple of weeks. It comprises of ten stages of which developers are evicted as the day goes. The watch word goes 'sleep is for the weak'. You have to always be a scout because tasks can get dropped anytime."
+            },
+                {
+                role: 'Front-end and backend Intern',
+                company: 'StartNg',
+                nature: 'Remote',
+                duration: 'Mar. 2020 - Apr. 2020',
+                time: 'Part Time',
+                about: "An internship to train developers. I worked on basic HTMl, CSS and javscript projects. I also worked on creating end-points for API using Node JS for backend development."
             },
                 {
                 role: 'Writer',
@@ -66,6 +74,14 @@ export default {
                 duration: 'Jan 2019 - Present',
                 time: 'Full Time',
                 about: "A firm for novel writing. I wrote my novels in this firm. It's not the regular firm with a building but a firm in my heart."
+            },
+                {
+                role: 'Front-end Intern',
+                company: 'Kodehauz',
+                nature: 'On-site',
+                duration: 'May 2015 - Oct 2015',
+                time: 'Full Time',
+                about: "I worked on learning the basics of web development, also learnt a bit about java and also helped out with tutorials for other interns"
             },
             ]
         }

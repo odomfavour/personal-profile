@@ -134,8 +134,8 @@ export default {
         {
           state: "isWeb",
           name: "Country Search",
-          link: "https://polydactyl-curse-fear.glitch.me/",
-          img: "mee.jpg",
+          link: "https://country-search-challenge.netlify.app/",
+          img: "country-api-challenge.png",
           brief: "Searching Countries",
         },
         {
@@ -156,8 +156,15 @@ export default {
           state: "isWeb",
           name: "huntr",
           link: "https://brave-wescoff-f58b5e.netlify.app",
-          img: "about-me.jpg",
+          img: "huntr.png",
           brief: "list jobs (API) & auth (firebase)",
+        },
+        {
+          state: "isWeb",
+          name: "Pexels Clone",
+          link: "https://pexels-clone-test.netlify.app",
+          img: "pexels-clone.png",
+          brief: "A clone of pexels website",
         },
       ],
     };
@@ -249,4 +256,18 @@ background: #0000008a;
 .link-box:hover {
   background: #ccc;
 }
+
+.portfolio-img {
+  overflow: hidden;
+}
+
+.portfolio-img img  {
+  height: 350px !important;
+  object-fit: cover;
+}
+
+/* .portfolio-img:hover img {
+  transform: scale(0.8);
+  overflow: hidden;
+} */
 </style>

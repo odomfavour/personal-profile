@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="col-md-5 order-md-2 order-1">
-          <img src="../assets/img/itss-me.png" alt="" class="img-fluid" />
+          <img src="../assets/img/its-mee.png" alt="" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -97,6 +97,7 @@ export default {
   display: none;
   cursor: pointer;
 }
+
 #burger div {
   width: 30px;
   height: 3px;
@@ -108,9 +109,11 @@ export default {
 .toggle .line1 {
   transform: rotate(-45deg) translate(-9px, 10px);
 }
+
 .toggle .line2 {
   opacity: 0;
 }
+
 .toggle .line3 {
   transform: rotate(45deg) translate(-5px, -6px);
 }
